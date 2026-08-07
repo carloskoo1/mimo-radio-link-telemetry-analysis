@@ -1,5 +1,15 @@
 ﻿# Changelog
 
+## 2.0.1 - 2026-08-07
+
+### Scientific metadata correction
+
+- Corrected author name to Jhon Cristhian Torres Hoyos.
+- Confirmed ORCID identifiers for both authors.
+- Archived release deposited in Zenodo.
+- Version DOI assigned: 10.5281/zenodo.21844766.
+- Concept DOI confirmed: 10.5281/zenodo.21844660.
+- Documentation and citation metadata synchronized.
 ## v2.0.1 - 2026-08-07
 
 Metadata correction release.
@@ -45,4 +55,5 @@ Continuous Integration.
 ## v1.0.0
 
 Initial reproducible release.
+
 

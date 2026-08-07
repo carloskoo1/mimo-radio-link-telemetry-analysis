@@ -1,6 +1,6 @@
 ﻿cff-version: 1.2.0
 
-message: "If you use this software, please cite it using these metadata."
+message: "If you use this software, please cite the archived v2.0.1 release using these metadata."
 
 title: "Temporal Analysis of Signal Imbalance in a 5.8 GHz MIMO Radio Link"
 
@@ -10,9 +10,16 @@ version: "2.0.1"
 
 date-released: "2026-08-07"
 
-doi: "10.5281/zenodo.21844661"
+doi: "10.5281/zenodo.21844766"
 
-repository-code: "https://github.com/carloskoo1/mimo-radio-link-telemetry-analysis"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21844660"
+    description: "Concept DOI representing all versions of this software"
+
+repository-code: "https://github.com/carloskoo1/mimo-radio-link-telemetry-analysis/tree/v2.0.1"
+
+url: "https://doi.org/10.5281/zenodo.21844766"
 
 license: MIT
 

@@ -26,3 +26,17 @@ The complete workflow can be executed with:
 
 These values provide a reference for verifying the reproduction of the
 experimental processing workflow.
+
+## Archived release
+
+Version:
+
+    v2.0.1
+
+Version-specific DOI:
+
+    10.5281/zenodo.21844766
+
+Concept DOI:
+
+    10.5281/zenodo.21844660
