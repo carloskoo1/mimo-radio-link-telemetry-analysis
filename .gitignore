@@ -1,34 +1,49 @@
-# Entorno
+﻿# Python
 .venv/
+venv/
 __pycache__/
 *.py[cod]
 
-# Datos y productos regenerables
-data/processed/*
-outputs/tables/*
-outputs/figures/*
-outputs/reports/*
-logs/*
-
-!data/processed/.gitkeep
-!outputs/tables/.gitkeep
-!outputs/figures/.gitkeep
-!outputs/reports/.gitkeep
-!logs/.gitkeep
-
-# Sistema
-Thumbs.db
-.DS_Store
-
-# Credenciales y secretos
+# Secrets
 .ap_pass
 *.pass
+*.password
 *.key
 *.pem
 .env
 .env.*
+!acquisition/.env.example
 credentials/
 secrets/
 
-# Datos crudos locales
+# Raw telemetry
 data/raw/
+
+# Generated products
+data/processed/*
+!data/processed/.gitkeep
+
+outputs/tables/*
+!outputs/tables/.gitkeep
+
+outputs/figures/*
+!outputs/figures/.gitkeep
+
+outputs/reports/*
+!outputs/reports/.gitkeep
+
+logs/*
+!logs/.gitkeep
+
+# Windows / macOS
+Thumbs.db
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.bak
+~$*

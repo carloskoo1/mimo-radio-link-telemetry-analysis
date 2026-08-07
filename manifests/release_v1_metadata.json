@@ -1,0 +1,18 @@
+﻿{
+    "release_version":  "1.0.0",
+    "release_date":  "2026-08-07",
+    "dataset":  {
+                    "original_csv_files":  90,
+                    "raw_records":  347036,
+                    "canonical_observations":  173513,
+                    "instantaneous_correlation_observations":  161340,
+                    "hourly_medians":  1989
+                },
+    "pipeline":  [
+                     "scripts/01_importar.py",
+                     "scripts/02_preprocesar.py",
+                     "scripts/03_estadistica.py",
+                     "scripts/04_figuras.py",
+                     "scripts/05_reportes.py"
+                 ]
+}
