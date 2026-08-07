@@ -84,3 +84,4 @@ Current scientific baseline:
     v1.0.0
 
 See `CHANGELOG.md` for release history.
+
