@@ -1,38 +1,36 @@
 ﻿# Changelog
 
-All notable changes to this research software are documented in this file.
+## v2.0.0
 
-## [1.0.1] - 2026-08-07
+Final scientific release.
 
-### Added
-- Continuous integration workflow using GitHub Actions.
-- Conda environment definition.
-- Reproduction scripts for Windows and Linux.
-- Scientific repository documentation improvements.
+Added:
 
-### Scientific reproducibility
-- Python syntax validation.
-- Dependency installation validation.
-- Automated pipeline structure verification.
+- Zenodo DOI
+- ORCID identifiers
+- GitHub Actions
+- Continuous Integration
+- Scientific reproducibility
+- CITATION.cff
+- Semantic Versioning
+- Reproducibility scripts
+- Repository documentation
+- Final README
+- Permanent DOI
+- IEEE-ready repository
 
-## [1.0.0] - 2026-08-07
+DOI:
 
-### Initial scientific release
-- Telemetry import pipeline.
-- AP/SM preprocessing and consolidation.
-- Delta RSSI computation.
-- Descriptive statistics.
-- Pearson, Spearman and Kendall correlation analysis.
-- Hourly median analysis.
-- Automated scientific figure generation.
-- Automated report generation.
-- Acquisition script for Cambium ePMP telemetry.
-- Scientific traceability documentation.
-- SHA-256 release manifest.
+https://doi.org/10.5281/zenodo.21844661
 
-### Experimental scale
-- 90 original CSV files.
-- 347,036 raw telemetry records.
-- 173,513 canonical observations.
-- 161,340 instantaneous correlation observations.
-- 1,989 hourly median observations.
+## v1.0.2
+
+Zenodo integration.
+
+## v1.0.1
+
+Continuous Integration.
+
+## v1.0.0
+
+Initial reproducible release.
