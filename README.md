@@ -1,5 +1,8 @@
-# Temporal Analysis of Signal Imbalance (?RSSI) in a 5.8 GHz MIMO Radio Link
+ï»¿# Temporal Analysis of Signal Imbalance in a 5.8 GHz MIMO Radio Link
 
+[![Scientific Pipeline Validation](https://github.com/carloskoo1/mimo-radio-link-telemetry-analysis/actions/workflows/validate.yml/badge.svg)](https://github.com/carloskoo1/mimo-radio-link-telemetry-analysis/actions/workflows/validate.yml)
+[![GitHub release](https://img.shields.io/github/v/release/carloskoo1/mimo-radio-link-telemetry-analysis)](https://github.com/carloskoo1/mimo-radio-link-telemetry-analysis/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ## Overview
 
 This repository contains the complete reproducible pipeline developed for the statistical analysis of telemetry collected from a Cambium ePMP 400C point-to-point MIMO radio link operating in the 5.8 GHz band.
@@ -40,6 +43,44 @@ python run_pipeline.py
 
 ## Author
 
-Carlos Jesús Koo Labrín
+Carlos JesÃºs Koo LabrÃ­n
 
 National University of Cajamarca
+
+## Reproducing the analysis
+
+### Windows
+
+    reproduce.bat
+
+### Linux
+
+    chmod +x reproduce.sh
+    ./reproduce.sh
+
+### Conda
+
+    conda env create -f environment.yml
+    conda activate mimo-radio-link-analysis
+    python run_pipeline.py
+
+## Continuous Integration
+
+Every push and pull request is automatically validated using GitHub Actions.
+
+The workflow checks:
+
+- Python syntax.
+- Dependency installation.
+- Repository structure.
+- Scientific reproducibility files.
+
+## Software versioning
+
+Stable research releases follow semantic versioning.
+
+Current scientific baseline:
+
+    v1.0.0
+
+See `CHANGELOG.md` for release history.

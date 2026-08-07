@@ -1,0 +1,65 @@
+﻿name: Scientific Pipeline Validation
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+
+  validate:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version:
+          - "3.11"
+          - "3.12"
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Upgrade pip
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Validate Python syntax
+        run: |
+          python -m py_compile \
+            run_pipeline.py \
+            scripts/01_importar.py \
+            scripts/02_preprocesar.py \
+            scripts/03_estadistica.py \
+            scripts/04_figuras.py \
+            scripts/05_reportes.py \
+            src/common.py
+
+      - name: Validate repository structure
+        run: |
+          test -f README.md
+          test -f CITATION.cff
+          test -f LICENSE
+          test -f requirements.txt
+          test -f docs/TRAZABILIDAD.md
+          test -f docs/REPRODUCIBILIDAD.md
+          test -f manifests/release_v1_sha256.csv
+
+      - name: Scientific repository validation completed
+        run: |
+          echo "Repository validation completed successfully."
