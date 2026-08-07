@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "Temporal Analysis of Signal Imbalance (?RSSI) in a 5.8 GHz MIMO Radio Link"
+message: "If you use this repository, please cite it."
+type: software
+
+authors:
+  - family-names: Koo Labrín
+    given-names: Carlos Jesús
+
+version: 1.0.0
+
+date-released: 2026-08-07
+
+license: MIT

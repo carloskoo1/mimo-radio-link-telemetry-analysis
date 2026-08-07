@@ -1,51 +1,45 @@
-# Pipeline V3 — Tesis Jhon Torres
+# Temporal Analysis of Signal Imbalance (?RSSI) in a 5.8 GHz MIMO Radio Link
 
-Pipeline científico por etapas para analizar ΔRSSI, SNR, códigos MCS propietarios Cambium y tasa de transmisión.
+## Overview
 
-## Diseño
+This repository contains the complete reproducible pipeline developed for the statistical analysis of telemetry collected from a Cambium ePMP 400C point-to-point MIMO radio link operating in the 5.8 GHz band.
 
-El flujo se divide en cinco etapas independientes:
+The repository accompanies the master's thesis and provides a reproducible workflow for importing, preprocessing, analyzing and visualizing telemetry collected under real operating conditions.
 
-1. Importación.
-2. Preprocesamiento y selección canónica AP/SM.
-3. Estadística descriptiva e inferencial.
-4. Figuras.
-5. Excel y Word.
+## Dataset
 
-Cada etapa genera sus propios productos y puede ejecutarse por separado.
+- 90 CSV files
+- 347,036 raw records
+- 173,513 canonical observations
+- 161,340 valid observations
+- 1,989 hourly medians
 
-## Instalación
+## Pipeline
 
-```powershell
-python -m venv .\.venv
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-& .\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install -r .\requirements.txt
-```
+01_importar.py
 
-## Ejecución completa
+?
 
-```powershell
-python .\run_pipeline.py
-```
+02_preprocesar.py
 
-## Ejecución por etapa
+?
 
-```powershell
-python .\scripts\01_importar.py
-python .\scripts\02_preprocesar.py
-python .\scripts\03_estadistica.py
-python .\scripts\04_figuras.py
-python .\scripts\05_reportes.py
-```
+03_estadistica.py
 
-## Criterios
+?
 
-- Se prioriza el rol AP por timestamp.
-- Si falta AP, se utiliza SM como respaldo.
-- ΔRSSI se calcula como `abs(rssi_c0p - rssi_c1p)`.
-- Los MCS se conservan como códigos propietarios del equipo.
-- Se calculan Pearson, Spearman y Kendall.
-- Se analizan registros canónicos y medianas horarias.
-- Las asociaciones no se interpretan como causalidad.
+04_figuras.py
+
+?
+
+05_reportes.py
+
+## Execute
+
+python run_pipeline.py
+
+## Author
+
+Carlos Jes�s Koo Labr�n
+
+National University of Cajamarca

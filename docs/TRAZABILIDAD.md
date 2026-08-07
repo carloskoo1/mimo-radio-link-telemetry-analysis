@@ -1,9 +1,43 @@
-# Trazabilidad del Pipeline V3
+# TRACEABILITY
 
-- Los CSV originales no se modifican.
-- Cada archivo se registra con hash SHA-256.
-- El resultado de cada etapa queda almacenado.
-- Los MCS se tratan como códigos propietarios Cambium.
-- La tasa de transmisión se convierte a Mbps antes de cualquier coerción destructiva.
-- La selección canónica prioriza AP y utiliza SM únicamente como respaldo.
-- Las correlaciones se calculan en datos por timestamp y medianas horarias.
+Cambium ePMP 400C
+
+?
+
+poll_epmp.sh
+
+?
+
+90 CSV files
+
+?
+
+347,036 raw records
+
+?
+
+01_importar.py
+
+?
+
+173,513 canonical observations
+
+?
+
+02_preprocesar.py
+
+?
+
+03_estadistica.py
+
+?
+
+04_figuras.py
+
+?
+
+05_reportes.py
+
+?
+
+Results reported in the thesis.
