@@ -1,15 +1,27 @@
 ﻿cff-version: 1.2.0
-message: "If you use this software, please cite the corresponding repository release."
+
 title: "Temporal Analysis of Signal Imbalance in a 5.8 GHz MIMO Radio Link"
+
+message: "If you use this repository, please cite it using the metadata below."
+
 type: software
-version: 1.0.0
-date-released: 2026-08-07
+
+version: 1.0.2
+
+doi: 10.5281/zenodo.21844661
+
+repository-code: https://github.com/carloskoo1/mimo-radio-link-telemetry-analysis
+
 license: MIT
-keywords:
-  - MIMO
-  - RSSI
-  - signal imbalance
-  - telemetry
-  - radio link
-  - wireless networks
-  - reproducible research
+
+authors:
+
+  - family-names: Torres
+    given-names: Jhon
+    orcid: "https://orcid.org/0009-0005-1167-9930"
+    affiliation: "Universidad Nacional de Cajamarca"
+
+  - family-names: Koo Labrín
+    given-names: Carlos Jesús
+    orcid: "https://orcid.org/0000-0002-0323-2961"
+    affiliation: "Universidad Nacional de Cajamarca"
