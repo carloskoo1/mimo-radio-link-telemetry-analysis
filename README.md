@@ -7,7 +7,7 @@
 
 This repository contains the complete reproducible pipeline developed for the statistical analysis of telemetry collected from a Cambium ePMP 400C point-to-point MIMO radio link operating in the 5.8 GHz band.
 
-The repository accompanies the master's thesis and provides a reproducible workflow for importing, preprocessing, analyzing and visualizing telemetry collected under real operating conditions.
+The repository accompanies the undergraduate thesis and provides a reproducible workflow for importing, preprocessing, analyzing and visualizing telemetry collected under real operating conditions.
 
 ## Dataset
 
@@ -81,7 +81,7 @@ Stable research releases follow semantic versioning.
 
 Current scientific baseline:
 
-    v1.0.0
+    v2.0.1
 
 See `CHANGELOG.md` for release history.
 
