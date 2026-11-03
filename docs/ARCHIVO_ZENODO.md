@@ -11,6 +11,18 @@
 
 El DOI conceptual y el DOI específico de v2.0.1 no son repositorios independientes. Zenodo crea un DOI para cada versión y uno para su familia. Para citar una ejecución de análisis se prefiere el DOI específico de la versión verificada.
 
+## Inventario verificado de la familia Zenodo (5 registros)
+
+| Registro DOI | Contenido archivado | Uso correcto |
+|---|---|---|
+| [21844661](https://doi.org/10.5281/zenodo.21844661) | ZIP de software v1.0.2 | Versión histórica |
+| [21844740](https://doi.org/10.5281/zenodo.21844740) | ZIP de software v2.0.0 | Versión histórica |
+| [21844766](https://doi.org/10.5281/zenodo.21844766) | ZIP de software v2.0.1 | **Cita del software descrito en la tesis** |
+| [21845197](https://doi.org/10.5281/zenodo.21845197) | ZIP de software v2.0.2 | Versión archivada posterior; el ref GitHub `v2.0.2` no respondió en la comprobación del 3-nov-2026 |
+| [23551370](https://doi.org/10.5281/zenodo.23551370) | PDF y DOCX de una tesis (22-oct-2026) | **No es software**; catalogado erróneamente como quinta versión |
+
+**Precisión:** el registro de tesis 23551370 está hoy agrupado bajo el DOI conceptual 21844660. El DOI conceptual actualmente puede mostrar el último depósito, que es una tesis y no código. Para reproducciones de esta tesis es preferible el DOI **específico** de software v2.0.1, 21844766, hasta que Zenodo resuelva la catalogación. No borrar DOI históricos ni crear versiones artificiales para ocultar registros.
+
 ## Inconsistencia documental que exige gestión del titular en Zenodo
 
 El registro https://doi.org/10.5281/zenodo.23551370, publicado el **22 de octubre de 2026**, contiene los archivos `Tesis_Jhon_Torres_Formato_UNC_Final.pdf` y `Tesis_Jhon_Torres_Formato_UNC_Final.docx`, pero aparece clasificado como `Software` y dentro de la misma familia conceptual que las versiones del código. Por su contenido, **no es una versión de código**, por lo que no debe presentarse como continuación técnica de v2.0.1.
