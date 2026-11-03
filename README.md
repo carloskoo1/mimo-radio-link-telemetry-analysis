@@ -3,6 +3,15 @@
 [![Scientific Pipeline Validation](https://github.com/carloskoo1/mimo-radio-link-telemetry-analysis/actions/workflows/validate.yml/badge.svg)](https://github.com/carloskoo1/mimo-radio-link-telemetry-analysis/actions/workflows/validate.yml)
 [![GitHub release](https://img.shields.io/github/v/release/carloskoo1/mimo-radio-link-telemetry-analysis)](https://github.com/carloskoo1/mimo-radio-link-telemetry-analysis/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+## Official project and archive
+
+This is the **single public source-code repository** for the Jhon Torres MIMO 5.8 GHz thesis project. Its Zenodo archive belongs to **one conceptual software record**:
+
+- **Project DOI (all versions):** https://doi.org/10.5281/zenodo.21844660
+- **Citable software release v2.0.1:** https://doi.org/10.5281/zenodo.21844766
+
+These are not two independent projects: the first identifies the software version family and the second identifies an exact archived release. Earlier version DOIs remain valid historical records. **Do not create a separate GitHub repository or Zenodo deposit to correct metadata.** See [archive provenance and remediation](docs/ARCHIVO_ZENODO.md).
+
 ## Overview
 
 This repository contains the complete reproducible pipeline developed for the statistical analysis of telemetry collected from a Cambium ePMP 400C point-to-point MIMO radio link operating in the 5.8 GHz band.
@@ -19,33 +28,22 @@ The repository accompanies the undergraduate thesis and provides a reproducible 
 
 ## Pipeline
 
-01_importar.py
-
-?
-
-02_preprocesar.py
-
-?
-
-03_estadistica.py
-
-?
-
-04_figuras.py
-
-?
-
-05_reportes.py
+1. `scripts/01_importar.py`
+2. `scripts/02_preprocesar.py`
+3. `scripts/03_estadistica.py`
+4. `scripts/04_figuras.py`
+5. `scripts/05_reportes.py`
 
 ## Execute
 
 python run_pipeline.py
 
-## Author
+## Authors
 
-Carlos Jesús Koo Labrín
+- Jhon Cristhian Torres Hoyos (undergraduate thesis author)
+- Carlos Jesús Koo Labrín (academic adviser and software contributor)
 
-National University of Cajamarca
+Universidad Nacional de Cajamarca, Peru.
 
 ## Reproducing the analysis
 
