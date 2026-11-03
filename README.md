@@ -131,3 +131,12 @@ J. C. Torres Hoyos and C. J. Koo Labrín,
 software, version 2.0.1, Zenodo, 2026.
 DOI: https://doi.org/10.5281/zenodo.21844766
 
+## Canonical archive and DOI policy
+
+This project uses **one GitHub repository** and **one Zenodo concept record**:
+- Canonical GitHub: https://github.com/carloskoo1/mimo-radio-link-telemetry-analysis
+- Zenodo concept DOI (all versions): https://doi.org/10.5281/zenodo.21844660
+- Archived software v2.0.1 DOI (cite for exact version): https://doi.org/10.5281/zenodo.21844766
+
+An October 2026 documentation-only deposit is currently cataloged as software inside this series; its DOI is not interchangeable with the software v2.0.1 DOI. See [the complete version and deposit provenance record](docs/IDENTIDAD_CANONICA_ZENODO.md).
+
