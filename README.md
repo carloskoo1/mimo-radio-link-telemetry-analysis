@@ -10,7 +10,7 @@ This is the **single public source-code repository** for the Jhon Torres MIMO 5.
 - **Project DOI (all versions):** https://doi.org/10.5281/zenodo.21844660
 - **Citable software release v2.0.1:** https://doi.org/10.5281/zenodo.21844766
 
-These are not two independent projects: the first identifies the software version family and the second identifies an exact archived release. Earlier version DOIs remain valid historical records. **Do not create a separate GitHub repository or Zenodo deposit to correct metadata.** See [archive provenance and remediation](docs/ARCHIVO_ZENODO.md).
+These are not two independent projects: the first identifies the version family and the second identifies an exact archived software release. **Until the incorrectly grouped thesis deposit is corrected in Zenodo, cite the v2.0.1 DOI (21844766) for reproducible software**, rather than relying on the concept DOI landing page. Earlier version DOIs remain valid historical records. **Do not create a separate GitHub repository or Zenodo deposit to correct metadata.** See [archive provenance and remediation](docs/ARCHIVO_ZENODO.md).
 
 ## Overview
 
