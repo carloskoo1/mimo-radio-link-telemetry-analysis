@@ -18,6 +18,10 @@ This repository contains the complete reproducible pipeline developed for the st
 
 The repository accompanies the undergraduate thesis and provides a reproducible workflow for importing, preprocessing, analyzing and visualizing telemetry collected under real operating conditions.
 
+## Thesis methodology and hypothesis
+
+The thesis distinguishes verification of the acquisition system from the observational analysis of ΔRSSI. The [methodological explanation and hypothesis assessment](docs/CONTRASTACION_HIPOTESIS_TESIS.md) lists the evidence for the general objective, results by specific objective, the descriptive decision rule, and its limits. Raw telemetry is not distributed here.
+
 ## Dataset
 
 - 90 CSV files
