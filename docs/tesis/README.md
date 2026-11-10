@@ -1,9 +1,13 @@
-# Tesis final
+# Tesis y documentos complementarios — Jhon Torres
 
-Esta carpeta contiene la versión completa de la tesis de Jhon Cristhian Torres Hoyos sobre el análisis temporal del desbalance de señal en un radioenlace MIMO de 5,8 GHz.
+Este directorio conserva copias de la tesis y material de trazabilidad metodológica. Los archivos `Tesis_Jhon_Torres_Formato_UNC_Final.docx` y `.pdf` corresponden a una **versión histórica** presente en el repositorio, y **no** deben presentarse automáticamente como idénticos a la tesis de cierre con fecha 08-11-2026, titulada `Tesis_Jhon_Torres_UNC_Cierre_Defensa_Final.docx` (123 páginas físicas), que deberá cotejarse y sincronizarse cuando exista acceso al archivo editable original.
 
-- **PDF**: versión de lectura y distribución.
-- **DOCX**: versión editable del documento.
-- **Formato aplicado**: Times New Roman 12 pt para el texto, interlineado 1,5 y Times New Roman 9 pt para las tablas.
+## Complementos de la observación M5
 
-El código y la documentación de reproducibilidad asociados al estudio se encuentran en la raíz de este repositorio. La tesis complementa esos materiales y contextualiza los objetivos, métodos, resultados y conclusiones de la investigación.
+- [Ficha de observación digital estructurada](FICHA_OBSERVACION_DIGITAL.md): campo, unidad, fuente CLI, ejemplo previamente declarado y límites.
+- [Registro de subsanación M5](SUBSANACION_M5_FICHA_OBSERVACION_20261110.md): motivación, localización y condiciones de cierre.
+- [Metodología ampliada](../METODOLOGIA.md) y [diccionario](../DICCIONARIO_VARIABLES.md).
+
+**Estado:** documentación complementaria publicada; edición dentro del DOCX de cierre y aceptación formal por jurado pendientes. Estas actualizaciones no alteran el software científico archivado como v2.0.1.
+
+El estilo académico declarado en la copia histórica usa Times New Roman de 12 pt y 1,5 de interlineado en el texto; su verificación debe repetirse en el DOCX de cierre.
