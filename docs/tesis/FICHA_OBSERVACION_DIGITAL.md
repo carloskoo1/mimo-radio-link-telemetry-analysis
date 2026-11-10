@@ -1,6 +1,6 @@
 # Ficha de observación digital estructurada — tesis Jhon Torres
 
-**Documento de trazabilidad metodológica (10-11-2026).** Complemento descriptivo de la tesis «Implementación de un sistema automatizado de adquisición de métricas y análisis del desbalance de señal (ΔRSSI) en un radioenlace MIMO de 5,8 GHz en un entorno andino». No representa recolección nueva, prueba experimental, calibración de radio ni una ficha manual aplicada en campo. No sustituye los originales.
+Instrumento de registro estructurado de la tesis «Implementación de un sistema automatizado de adquisición de métricas y análisis del desbalance de señal (ΔRSSI) en un radioenlace MIMO de 5,8 GHz en un entorno andino». La ficha describe la estructura empleada para documentar las observaciones automatizadas; no equivale a un cuestionario manual ni a una medición independiente del radio.
 
 ## Identidad de la técnica y del instrumento
 
@@ -27,9 +27,9 @@
 
 El recolector público incluye 24 columnas: `ts,role,ip,f4,f5,f6,f7,mcs_dl,mcs_ul,snr_dl,snr_ul,rssi_c0p,rssi_c0e,rssi_c1p,rssi_c1e,dl_rate,ul_rate,sta_dl_rssi,sta_ul_rssi,res20,res21,res22,res23,res24`. Los campos `f4`–`f7`, `ul_rate` y `res20`–`res24` no deben presentarse como indicadores físicos adicionales sin definición y validación documental. Véanse el [recolector público](../../acquisition/poll_epmp_public.sh) y el [diccionario de variables](../DICCIONARIO_VARIABLES.md).
 
-## Ejemplo cumplimentado, transcrito de la tesis de cierre
+## Ejemplo histórico de registro estructurado
 
-**Origen declarado:** tesis `Tesis_Jhon_Torres_UNC_Cierre_Defensa_Final.docx`, Anexo 2, apartado «Casos de cotejo e integridad de archivos», ciclo del **16/05/2026 a las 00:06:01 UTC−05:00**. Esta transcripción no afirma un nuevo cotejo de los archivos originales durante la presente actualización.
+**Origen declarado:** tesis `Tesis_Jhon_Torres_UNC_Cierre_Defensa_Final.docx`, Anexo 2, apartado «Casos de cotejo e integridad de archivos», ciclo del **16/05/2026 a las 00:06:01 UTC−05:00**. Los datos corresponden a un caso histórico ya consignado en el estudio.
 
 | Atributo | Valor informado en la tesis |
 | --- | --- |
@@ -60,4 +60,3 @@ En la tesis se documentan 90 CSV, 347 036 filas crudas y 173 513 capturas canón
 - **OE4 (asociaciones):** emparejamiento de ΔRSSI y tasa DL reportada, con sensibilidad temporal y límites inferenciales.
 - **OE5 (interpretación):** contextualización técnica, trazabilidad y limitaciones; sin atribución causal.
 
-**Control editorial:** su incorporación al DOCX definitivo requiere incluir título y referencia cruzada desde §3.3 y el Anexo 2, más recálculo de índices y paginación. No reescribir el depositado v2.0.1 ni afirmar que los especialistas evaluaron esta ficha nueva.
