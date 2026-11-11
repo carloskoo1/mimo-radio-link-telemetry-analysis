@@ -72,3 +72,10 @@ Se generó una **copia corregida local**, llamada `TESIS_JHON_TORRES_111126_REFE
 **SHA-256 de la copia corregida:** `df9f252beb7db3063a8b296635406192bdf3214e0c6d646e5b2cf3775192b68a`. Conserva **123 páginas físicas**. Una comparación del texto extraído detectó cambios solo en las páginas físicas 39, 84 y 86. Se inspeccionó visualmente la maquetación de estas tres páginas. El PDF corregido se entrega al responsable en el expediente de revisión; **no se ha subido a Zenodo ni sustituido la copia histórica de GitHub**.
 
 La edición del DOCX original correspondiente y la eventual sincronización archivística quedan pendientes de acceso/autorización a ese documento editable y de la decisión del titular en Zenodo. Las fichas de especialistas aún requieren verificación de procedencia individual.
+
+
+## Modalidad de recepción de fichas: antecedente disponible
+
+En el expediente de la tesis `TESIS_JHON_TORRES_V9_PROCEDENCIA_WHATSAPP_PRESENCIAL_20261103.docx` consta una **declaración del asesor** sobre los canales de recepción: las revisiones de Edgar Laurente Gómez y Erick Brian Koo Labrín se habrían recibido por WhatsApp, y la revisión de Araceli Poémape Grados mediante contacto presencial en la Universidad Nacional de Cajamarca. Esto documenta el relato de procedencia, **no autentica por sí solo** las transmisiones ni permite afirmar que exista exportación forense de mensajes. No corresponde exigir obligatoriamente correo electrónico como canal de devolución ni volver a confeccionar evaluaciones.
+
+Si se requiere una comprobación adicional, preservar privadamente el archivo firmado recibido y la evidencia disponible de transmisión/recepción (por ejemplo, adjunto original de WhatsApp o constancia de entrega presencial), o solicitar confirmación actual con fecha real. No colocar firmas, teléfonos ni conversaciones privadas en GitHub.
