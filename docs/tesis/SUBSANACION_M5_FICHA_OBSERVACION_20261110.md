@@ -1,15 +1,25 @@
 # Subsanación documental de observación M5 — fichas de observación
 
-**Fecha:** 10-11-2026 · **Tesis:** Jhon Cristhian Torres Hoyos · **Jurado:** Dr. Manuel E. Malpica Rodríguez.
+**Fecha del primer registro:** 10-11-2026. **Cotejo actualizado:** 11-11-2026.
+**Tesis:** Jhon Cristhian Torres Hoyos. **Jurado:** Dr. Manuel E. Malpica Rodríguez.
 
-**Requerimiento complementario comunicado:** identificar/incorporar fichas de observación. La observación M5 previa solicitó revisar técnicas, instrumentos, validación y confiabilidad. No se transforma esta petición informal en acta formal ni en nueva conformidad del jurado.
+## Requerimiento y fundamento
 
-**Evaluación:** la tesis de cierre (08-11-2026; 123 páginas físicas) ya documenta §3.3, la ficha técnica (Tabla IX, Anexo 2, p. 78), la matriz de campos fuente (Tabla X, p. 79) y casos de cotejo en el Anexo 2. No se localiza una ficha independiente titulada «Ficha de observación digital estructurada».
+La observación M5 solicita revisar técnicas, instrumentos, validación y confiabilidad. Se comunicó adicionalmente la necesidad de identificar expresamente fichas de observación. Esa precisión no se representa como una nueva acta ni como conformidad del jurado.
 
-**Acción documental:** se agrega [Ficha de observación digital estructurada](FICHA_OBSERVACION_DIGITAL.md), que reúne campos, fuentes, unidades, reglas, ejemplo ya declarado en la tesis y límites. Se actualizan `docs/METODOLOGIA.md`, `docs/DICCIONARIO_VARIABLES.md` y `docs/TRAZABILIDAD.md`.
+La observación sistemática automatizada es la técnica de adquisición. Su instrumento de registro es el **esquema estructurado de campos CSV**, equivalente funcional a una ficha digital que se llena por captura; el análisis documental usa una matriz de campos, unidades y reglas. La fuente de valores de telemetría es el radio y Python procesa los registros. Bibliografía metodológica: Ñaupas et al., cap. 7; Medina Romero et al. (2023), pp. 20, 30, 43 y 46. Referencias [20] y [33] en la tesis.
 
-**Estado de la subsanación:** documentación en GitHub: **verificada** por existencia de archivos y código; incorporación al DOCX definitivo: **pendiente** de actualizar el original editable; validación física y cotejo integral: **inconclusos/no exigibles por esta ficha**; telemetría cruda: **acceso restringido**; conformidad del jurado: **pendiente**.
+## Secuencia documental
 
-**Límites de la modificación:** no hubo encuesta, nueva observación de campo, nueva medición, nuevos datos, reejecución de campaña, cambio de hipótesis, validación adicional de especialistas ni afirmación de calibración. El ejemplo procede de una transcripción del expediente de tesis y no sustituye datos fuente.
+1. **08-11-2026:** la versión de cierre consultada describía la ficha técnica y la matriz de campos, sin un apartado autónomo titulado «Ficha de observación digital estructurada».
+2. **10-11-2026:** se publicó [la ficha digital](FICHA_OBSERVACION_DIGITAL.md) en GitHub. En ese momento, la nota histórica consideraba pendiente incorporarla al DOCX definitivo.
+3. **11-11-2026:** revisión directa del PDF `TESIS_JHON_TORRES_101126.pdf`, 123 páginas físicas, SHA-256 `219a4c023bc2fbbc039b06e320c264f051c39d4a23ac0eac9dfef47970caabdf`. **Verificado:** §3.3 (pp. 23–24), Tabla I (p. 34), Tabla IX (p. 77), Tabla X (p. 78) y **ficha de observación digital con dos registros históricos en la p. 79, Anexo 2**. El texto de esta nota se actualizó para que no se confunda el estado histórico con el actual.
+4. **Pendiente:** comprobación del DOCX editable que corresponda exactamente al PDF y conformidad del jurado.
 
-**Texto para la matriz M5:** «Se integra la ficha de observación digital estructurada como presentación explícita del instrumento ya aplicado mediante adquisición automatizada, con diccionario de variables, procedencia de campos, un caso histórico identificado, reglas de validez y enlace con OE1–OE5. La ficha no constituye recolección nueva, calibración ni validación de toda la campaña. Véase §3.3 y Anexo 2 de la tesis y documentación anexa del repositorio. Estado: atendida documentalmente una vez incorporada al manuscrito y verificada su paginación; conformidad del jurado pendiente».
+## Alcance de la verificación
+
+Las fichas de la p. 79 son dos ejemplos históricos del 16/05/2026 ya incluidos en la documentación; no son formularios manuales ni dos mediciones independientes nuevas. No se ejecutó campaña nueva ni validación metrológica. El cotejo CLI–CSV se refiere a 21 438 campos coincidentes **incluyendo vacíos** de ciclos asignables de ese día; no representa 21 438 mediciones físicas válidas. El extractor histórico obtuvo 10/12 casos conformes y mostró dos fallas construidas ante múltiples estaciones. La mejora examinada fuera de línea no generó los CSV históricos.
+
+**Estado de M5 a 11-11-2026:** subsanación documental de la ficha **verificada en el PDF de cierre**; verificación completa del historial técnico y aceptación formal **no acreditadas**. Telemetría original: **acceso restringido**.
+
+Se preserva íntegra la diferencia entre comprobación de registros, revisión de contenido por especialistas y calibración física del receptor.
