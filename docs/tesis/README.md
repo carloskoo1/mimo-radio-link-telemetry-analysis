@@ -1,13 +1,26 @@
 # Tesis y documentos complementarios — Jhon Torres
 
-Este directorio conserva copias de la tesis y material de trazabilidad metodológica. Los archivos `Tesis_Jhon_Torres_Formato_UNC_Final.docx` y `.pdf` corresponden a una **versión histórica** presente en el repositorio, y **no** deben presentarse automáticamente como idénticos a la tesis de cierre con fecha 08-11-2026, titulada `Tesis_Jhon_Torres_UNC_Cierre_Defensa_Final.docx` (123 páginas físicas), que deberá cotejarse y sincronizarse cuando exista acceso al archivo editable original.
+Este directorio contiene copias históricas de la tesis y documentos complementarios. Los archivos `Tesis_Jhon_Torres_Formato_UNC_Final.docx` y `.pdf` que permanecen aquí **no son automáticamente idénticos** al manuscrito corregido del 10 de noviembre de 2026.
 
-## Complementos de la observación M5
+## Comprobación del 11 de noviembre de 2026
 
-- [Ficha de observación digital estructurada](FICHA_OBSERVACION_DIGITAL.md): campo, unidad, fuente CLI, ejemplo previamente declarado y límites.
-- [Registro de subsanación M5](SUBSANACION_M5_FICHA_OBSERVACION_20261110.md): motivación, localización y condiciones de cierre.
-- [Metodología ampliada](../METODOLOGIA.md) y [diccionario](../DICCIONARIO_VARIABLES.md).
+Se inspeccionó directamente el PDF de 123 páginas físicas identificado como `TESIS_JHON_TORRES_101126.pdf` (SHA-256: `219a4c023bc2fbbc039b06e320c264f051c39d4a23ac0eac9dfef47970caabdf`). En esa edición:
 
-**Estado:** documentación complementaria publicada; edición dentro del DOCX de cierre y aceptación formal por jurado pendientes. Estas actualizaciones no alteran el software científico archivado como v2.0.1.
+- **Verificado:** §3.3 (pp. impresas 23–24) identifica observación automatizada, ficha digital estructurada y análisis documental con referencias metodológicas.
+- **Verificado:** Anexo 2, p. impresa 79, contiene el apartado **«Ficha de observación digital estructurada: registros de ejemplo»**, dos registros del 16/05/2026, fuentes, unidades y reglas de correspondencia. Son ejemplos de capturas históricas, no mediciones nuevas.
+- **Verificado:** Tabla I (p. 34), Tabla II (pp. 35–36) y §4.7 (pp. 55–56) conservan la ruta variables–objetivos–hipótesis–resultados.
+- **Pendiente de verificación byte a byte:** archivo DOCX editable exactamente equivalente al PDF anterior y su paginación después de futuras modificaciones.
+- **Pendiente de conformidad externa:** aceptación formal de la subsanación por el jurado.
 
-El estilo académico declarado en la copia histórica usa Times New Roman de 12 pt y 1,5 de interlineado en el texto; su verificación debe repetirse en el DOCX de cierre.
+La nota del 10/11 que decía «incorporación al manuscrito pendiente» describía el estado **antes** del cotejo de esta edición y no debe leerse como estado actual del PDF. La ficha sí aparece en el PDF de cierre.
+
+## Documentos de apoyo
+
+- [Ficha de observación digital estructurada](FICHA_OBSERVACION_DIGITAL.md)
+- [Historial de la subsanación M5](SUBSANACION_M5_FICHA_OBSERVACION_20261110.md)
+- [Metodología de la tesis](../METODOLOGIA.md)
+- [Diccionario de variables](../DICCIONARIO_VARIABLES.md)
+- [Contraste descriptivo de la hipótesis](../CONTRASTACION_HIPOTESIS_TESIS.md)
+- [Conciliación GitHub–Zenodo–tesis](CONCILIACION_GITHUB_ZENODO_20261111.md)
+
+La existencia de las fichas no acredita calibración metrológica ni sustituye los originales de los especialistas. Los datos de telemetría cruda permanecen sujetos a acceso autorizado.
