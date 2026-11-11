@@ -60,3 +60,15 @@ Se recomienda verificar paginación y coincidencia Word–PDF después de insert
 5. Mantener separados los estados **verificado**, **parcial**, **pendiente** y **acceso restringido**.
 
 **No se afirma que Zenodo haya recibido la edición corregida.**
+
+## Copia PDF revisada creada el 11/11/2026
+
+Se generó una **copia corregida local**, llamada `TESIS_JHON_TORRES_111126_REFERENCIAS_CONCILIADAS.pdf`, a partir del PDF cotejado. Se modificaron exclusivamente tres páginas físicas (39, 84 y 86), correspondientes a las páginas impresas 27, 72 y 74:
+
+- §3.3 (p. 27): identifica expresamente como **edición previa** el depósito de la tesis en Zenodo.
+- Referencia [23] (p. 72): consigna el título oficial completo de la tesis, en lugar del título abreviado del software.
+- Anexo 1 (p. 74): identifica `23551370` como **registro histórico**, sin atribuirle la edición corregida.
+
+**SHA-256 de la copia corregida:** `df9f252beb7db3063a8b296635406192bdf3214e0c6d646e5b2cf3775192b68a`. Conserva **123 páginas físicas**. Una comparación del texto extraído detectó cambios solo en las páginas físicas 39, 84 y 86. Se inspeccionó visualmente la maquetación de estas tres páginas. El PDF corregido se entrega al responsable en el expediente de revisión; **no se ha subido a Zenodo ni sustituido la copia histórica de GitHub**.
+
+La edición del DOCX original correspondiente y la eventual sincronización archivística quedan pendientes de acceso/autorización a ese documento editable y de la decisión del titular en Zenodo. Las fichas de especialistas aún requieren verificación de procedencia individual.
