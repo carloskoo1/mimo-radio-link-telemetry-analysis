@@ -50,3 +50,21 @@ Para cerrar la trazabilidad documental es necesario obtener los **originales ind
 - Metadatos de Zenodo: https://zenodo.org/api/records/21844766 ; https://zenodo.org/api/records/21844661 ; https://zenodo.org/api/records/23551370
 - Zenodo — edición de metadatos publicados: https://help.zenodo.org/docs/deposit/manage-records/
 - Zenodo — versionado y DOI conceptual: https://help.zenodo.org/docs/deposit/manage-versions/
+
+
+## Conciliación con el PDF de cierre — 11 de noviembre de 2026
+
+Se comprobó el PDF de 123 páginas físicas `TESIS_JHON_TORRES_101126.pdf` (SHA-256 `219a4c023bc2fbbc039b06e320c264f051c39d4a23ac0eac9dfef47970caabdf`). En la edición cotejada, la ficha de observación digital figura en el Anexo 2, página impresa 79. Este PDF **no es idéntico por presunción** al DOCX/PDF depositado el 22/10/2026 en el registro de tesis 23551370.
+
+La verificación sobre la catalogación y parentesco de registros Zenodo que antecede a esta nota data del **03/11/2026**; el **11/11/2026 no fue posible completar una nueva lectura directa de la API de Zenodo**. No se afirma, por tanto, haber comprobado una rectificación posterior ni depositado el PDF de cierre. Se recomienda mantener separados:
+- Software científico v2.0.1: DOI específico `10.5281/zenodo.21844766`.
+- Copia histórica de tesis (22/10/2026): `10.5281/zenodo.23551370`.
+- PDF corregido de tesis (10/11/2026): edición local identificada por nombre, fecha y SHA-256; **depósito de esa edición no acreditado**.
+
+La etiqueta GitHub `v2.0.1` del 07/08/2026 preserva un `CITATION.cff` con DOI `21844661`, correspondiente a la versión histórica v1.0.2 según el inventario del 03/11. La rama `main` ya muestra `21844766` para el software v2.0.1. **No reescribir la etiqueta histórica**: describir la corrección de metadatos y usar el DOI específico verificado de la rama principal, dejando la discrepancia trazable.
+
+El PDF de cierre conserva en el capítulo III (§3.3, p. 27), el Anexo 1 (p. 74) y en [23] una afirmación que puede interpretarse como que el depósito 23551370 contiene la versión final corregida. Debe sustituirse por una referencia explícita a **edición histórica** en el archivo editable de la tesis antes de nueva remisión. No alterar referencias numéricas ni páginas por edición manual del PDF sin cotejo del Word.
+
+Sobre los tres especialistas: las fichas del Anexo 4 son evidencia **documental incorporada**, pero la corroboración de sus originales individuales (documento devuelto, correo con adjunto, o ratificación inequívoca fechada realmente) permanece **pendiente**. No publicar firmas ni fichas originales en este repositorio sin consentimiento.
+
+Véase [acta de conciliación documental](tesis/CONCILIACION_GITHUB_ZENODO_20261111.md).
