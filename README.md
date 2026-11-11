@@ -142,3 +142,10 @@ This project uses **one GitHub repository** and **one Zenodo concept record**:
 
 An October 2026 documentation-only deposit is currently cataloged as software inside this series; its DOI is not interchangeable with the software v2.0.1 DOI. See [the complete version and deposit provenance record](docs/IDENTIDAD_CANONICA_ZENODO.md).
 
+
+
+## Estado documental de la tesis — cotejo del 11/11/2026
+
+La edición de cierre `TESIS_JHON_TORRES_101126.pdf` fue cotejada externamente a este repositorio: 123 páginas físicas, SHA-256 `219a4c023bc2fbbc039b06e320c264f051c39d4a23ac0eac9dfef47970caabdf`. Su Anexo 2, p. impresa 79, **sí incluye** la ficha de observación digital. Las copias de tesis alojadas en `docs/tesis` son históricas y no deben presentarse como esa edición corregida.
+
+Para los DOI, la procedencia y los pendientes de sincronización véase [Conciliación GitHub–Zenodo–tesis](docs/tesis/CONCILIACION_GITHUB_ZENODO_20261111.md). El software v2.0.1 conserva como referencia de versión específica `10.5281/zenodo.21844766`; el registro de tesis `23551370` corresponde a una edición anterior. La confirmación de una actualización posterior en Zenodo **no se obtuvo** en esta revisión.
