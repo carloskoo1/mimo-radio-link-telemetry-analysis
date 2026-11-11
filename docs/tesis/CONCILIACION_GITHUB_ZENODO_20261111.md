@@ -79,3 +79,21 @@ La edición del DOCX original correspondiente y la eventual sincronización arch
 En el expediente de la tesis `TESIS_JHON_TORRES_V9_PROCEDENCIA_WHATSAPP_PRESENCIAL_20261103.docx` consta una **declaración del asesor** sobre los canales de recepción: las revisiones de Edgar Laurente Gómez y Erick Brian Koo Labrín se habrían recibido por WhatsApp, y la revisión de Araceli Poémape Grados mediante contacto presencial en la Universidad Nacional de Cajamarca. Esto documenta el relato de procedencia, **no autentica por sí solo** las transmisiones ni permite afirmar que exista exportación forense de mensajes. No corresponde exigir obligatoriamente correo electrónico como canal de devolución ni volver a confeccionar evaluaciones.
 
 Si se requiere una comprobación adicional, preservar privadamente el archivo firmado recibido y la evidencia disponible de transmisión/recepción (por ejemplo, adjunto original de WhatsApp o constancia de entrega presencial), o solicitar confirmación actual con fecha real. No colocar firmas, teléfonos ni conversaciones privadas en GitHub.
+
+
+## Edición DOCX y PDF conciliadas — expediente del 11/11/2026
+
+A diferencia de la intervención anterior únicamente en PDF, se recibió el **DOCX editable** `TESIS_JHON_TORRES_101126.docx` y se corrigió en una nueva copia, sin modificar el original.
+
+- Word revisado localmente: `TESIS_JHON_TORRES_111126_VERSION_REVISADA.docx`.
+- SHA-256 del Word revisado: `d7adb4bcc85b5e4fdc950f2c9bc762f718132ea3b0a47109578965db947fb4c0`.
+- PDF renderizado de ese mismo Word: `TESIS_JHON_TORRES_111126_VERSION_REVISADA.pdf`.
+- SHA-256 del PDF renderizado: `ba50e7b130269c8856f2063973db5a1525c1d14aa7a264d266a446a5b03c3c36`.
+- **123 páginas físicas** al renderizar en A4. Comparado página a página con `TESIS_JHON_TORRES_101126.pdf`, el texto extraído cambia **únicamente en páginas físicas 39, 84 y 86**, equivalentes a las páginas impresas 27, 72 y 74.
+- Las tres páginas modificadas se inspeccionaron visualmente y se verificó la maquetación global. Los resultados, tablas, hipótesis y anexos metodológicos no se editaron.
+- Referencia [23] ajustada al autor único de la tesis de pregrado y título completo; §3.3 y Anexo 1 delimitan el DOI 23551370 a una **edición histórica**.
+- **Pendiente institucional:** la portada del expediente mantiene hoja reservada para el informe oficial de similitud/Turnitin; no se fabricó una constancia.
+
+**Comprobación GitHub:** la ejecución de GitHub Actions [43045009039](https://github.com/carloskoo1/mimo-radio-link-telemetry-analysis/actions/runs/43045009039), correspondiente al commit `e5b497242f3176e1eea4026723cc112400b3716d`, terminó en **success** en Python 3.11 y Python 3.12. Verifica dependencias, sintaxis y estructura, **no** reprocesa los 90 CSV restringidos. Esta comprobación fue posterior al registro de los archivos de trazabilidad, sin cambios al software científico congelado en `v2.0.1`.
+
+La copia Word y el PDF revisados están disponibles en el expediente de entrega de la conversación. No se afirma que estas nuevas copias hayan sido subidas a GitHub o Zenodo, ni que los jurados hayan emitido conformidad.
